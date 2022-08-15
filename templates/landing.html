@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+    <div class="container">
+        <h1> Machine Learning Visualization Utility</h1>
+        <hr>
+        <p>Upload your dataset(CSV) and apply the available ML techniques</p>
+    </div>
+
+    <div class="parent-float">
+        <div class="left-half">
+            <h2>Supervised</h2> <hr><br>
+            <ol>
+                <li>Regression</li>
+                <li>Classification</li>
+            </ol>
+        </div><div class="right-half">
+            <h2>Unsupervised</h2> <hr><br>
+            <ol>
+                <li>Clustering</li>
+                <li>Association</li>
+            </ol>
+        </div>
+    </div>
+{% endblock %}

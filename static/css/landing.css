@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+.parent-float{
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.left-half {
+    background-color:antiquewhite ;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid red */
+}
+
+.right-half {
+    background-color:beige;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    /* border: 2px solid red */
+}
+p {
+    color: #202528;
+    font-size: 1.2em;
+    margin: 20px;
+}
+h1{
+    background-color:lavender;
+    text-align: center;
+    border: 5px 5px 5px 5px;
+    border-radius: 15px 15px 15px 15px;
+    margin: 5px 195px 5px 195px;
+}
+.navbar-brand{
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 205px;
+}
+ol{
+    list-style-type: none;  
+}
+li
+{
+    font-size: 1.5em;
+    text-align: center;
+}

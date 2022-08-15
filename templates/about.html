@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content%}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about.css') }}">
+    <div class="container">
+        <h1>About</h1>
+        <p>A summary of what this site does.</p>
+        <hr>
+        <p>
+            Data is everywhere in the modern era. <br>
+            Proper valuable decisons can be made if the data is utilized properly. <br>
+            Machine Learning techniques are available to do predictions on the data, but not everyone can code. <br>
+            Our site, takes-in a dataset(CSV format) and processes that dataset. <br>
+            It then shows, the ML techniques available and all those techniques can be applied on them, with just a click. <br>
+            <strong>No coding knowledge is required.</strong>
+        </p>
+    </div>
+
+{% endblock %}
